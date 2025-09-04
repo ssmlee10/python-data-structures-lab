@@ -16,7 +16,6 @@ def example_list_function():
   for element in example_list:
       print(element)
 
-# Call the function and print each element
 example_list_function()
 
 # Exercise 1: List and Indexing
@@ -26,7 +25,10 @@ example_list_function()
 # Assign the last student’s name to a variable named last_student.
 
 def manage_students():
-  student_list = []
+  student_list = ['Spongebob', 'Squidward', 'Patrick']
+  first_student = student_list[1]
+  last_student = student_list[-1]
+  return first_student, last_student
 
 # Call the function and print the result
 print('Exercise 1:', manage_students())
